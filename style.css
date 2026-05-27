@@ -1,0 +1,25 @@
+.teste {
+    width: 100px;
+  height: 50px;
+  background-color: rgb(130, 130, 130);
+  transition: width 0.5s, height 0.5s;
+  position: relative;
+  left: 30px;
+}
+
+.teste:hover {
+    width: 150px;
+  height: 50px;
+  background-color: rgb(130,130,130);
+  transition: width 0.5s, height 0.5s;
+}
+
+.teste:active {
+    animation-name: click;
+  animation-duration: 0.5s;
+}
+
+@keyframes click {
+    from {background-color: rgb(222, 222, 222);}
+    to {}
+  }
