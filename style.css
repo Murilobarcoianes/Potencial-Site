@@ -2,14 +2,26 @@
     width: 325px;
   height: 325px;
   background-color: rgb(130, 130, 130);
-  transition: height 0.5s, left 0.5s;
+  color: black;
+  transition: height 0.5s, left 0.5s; background-color: 0.5s; color: 0.5s;
   position: relative;
   left: 300px;
   z-index: 1;
 }
 
+.text:active {
+    animation-name: click;
+  animation-duration: 0.5s;
+}
+
 .teste:hover {
-    width: 325px;
+  color: aliceblue;
+  transition: color 0.25s;
+}
+
+
+.teste:active {
+  width: 325px;
   height: 325px;
   background-color: rgb(130,130,130);
   transition: height 0.5s, left 0.5s;
@@ -32,7 +44,7 @@
   height: 315px;
   background-color: rgb(230, 213, 171);
   position: relative;
-  left: 300px;
+  left: 325px;
   bottom: 340px;
   z-index: -1;
 }
