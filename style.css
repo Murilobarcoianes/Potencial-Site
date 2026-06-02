@@ -1,3 +1,19 @@
+.background{
+    background-color: #292929;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.content{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    animation: row 1.43s ease;
+}
+
 .header{
     color: white;
     background-color: #b02020;
