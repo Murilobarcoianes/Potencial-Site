@@ -11,17 +11,32 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 50px;
-    animation: row 1.43s ease;
+    animation: button 1.43s ease;
+}
+
+.content1{
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    animation: button1 1.43s ease;
+    border-left: solid;
+    border-color: #b02020;
+    border-width: 5px;
+    padding: 20px;
 }
 
 .header{
+    position: sticky;
+    top: 0;
     color: white;
     background-color: #b02020;
-    height: 100px;
+    height: 110px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     transition: all 0.5s ease;
     animation: start 1.43s ease;
+    padding-top: 5px;
 
 }
 
@@ -32,6 +47,7 @@
 }
 
 .Escola{
+    position: sticky;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #b08c20;
     color: white;
@@ -54,6 +70,17 @@
 
 }
 
+@keyframes button1{
+  from{
+    transform: translateX(-500px);
+  }  
+  
+  to{
+    transform: translateX(0px);
+  }
+
+}
+
 @keyframes row {
     from{
         transform: scale(0);
@@ -69,7 +96,7 @@
 height: 0px;
     }
     to{
-height: 100px;
+height: 110px;
     }
 
 }
