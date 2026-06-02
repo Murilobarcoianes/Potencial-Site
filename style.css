@@ -5,7 +5,7 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     transition: all 0.5s ease;
-    animation: start 1.43s ease-in-out;
+    animation: start 1.43s ease;
 
 }
 
@@ -24,7 +24,18 @@
     font-size: 16px;
     cursor: pointer;
     transition: all 0.3s ease;
-    animation: row 1.43s ease-in-out;
+    animation: button 1.43s ease;
+}
+
+@keyframes button{
+  from{
+    transform: translateY(-500px);
+  }  
+  
+  to{
+    transform: translateY(0px);
+  }
+
 }
 
 @keyframes row {
@@ -44,6 +55,5 @@ height: 0px;
     to{
 height: 100px;
     }
-
 
 }
